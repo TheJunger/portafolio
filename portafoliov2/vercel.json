@@ -1,0 +1,12 @@
+{
+    "rewrites": [
+      { "source": "/proyectos/cogimientoland-vii", "destination": "/" },
+      { "source": "/proyectos/cogimientoland-vi", "destination": "/" },
+      { "source": "/proyectos/contador-bolsitas", "destination": "/" },
+      { "source": "/proyectos/gestor-inventario", "destination": "/" },
+      { "source": "/proyectos/gestor-inventario/*", "destination": "/" },
+      { "source": "/proyectos", "destination": "/" },
+      { "source": "/:path*", "destination": "/" }
+    ]
+}
+  

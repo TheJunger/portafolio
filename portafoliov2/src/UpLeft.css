@@ -1,0 +1,81 @@
+.upleftCont{
+    display: flex;
+}
+
+.userImage{
+    width: 150px;
+    height: 150px;
+    border: 0.4vh solid cadetblue;
+}
+
+.infouser{
+    margin-left: 30px;
+}
+
+.nameCont{
+    display: flex;
+    align-items: baseline;
+    text-align: center;
+}
+
+.name{
+    font-size: 27px;
+    margin-bottom: 5px;
+}
+
+.user{
+    color: #555;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.country{
+    margin-bottom: 30px;
+    color: #bbb;
+}
+
+.textuser{
+    font-size: 20px;
+}
+
+.textuserMobile{
+    display: none;
+}
+
+@media (max-width: 600px){
+    .upleftCont{
+        width: 100%;
+        display: grid;
+        grid-template-areas:
+        "image info"
+        "text text";
+    }
+
+    .userImage{
+        grid-area: image;
+    }
+
+    .nameCont{
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        align-items: start;
+        grid-area: info;
+    }
+
+    .user{
+        margin: 0;
+    }
+
+    .textuser{
+        display: none;
+    }
+    
+    .textuserMobile{
+        display: block;
+        grid-area: text;
+        font-size: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
+}

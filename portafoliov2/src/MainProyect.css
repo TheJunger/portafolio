@@ -1,0 +1,124 @@
+.titledown{
+    background-color: rgba(19, 22, 59, 0.8);
+    padding: 1vh;
+    font-size: 20px;
+}
+
+.actualProyectContent{
+    background-color: rgb(34, 34, 34, 0.8);
+    padding: 2vh;
+    padding-top: 3vh;
+}
+
+.mainContent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nameimage{
+    display: flex;
+    align-items: flex-start;
+}
+
+.imgcontdownleft{
+    padding: 0;
+    margin: 0;
+    width: 95px;
+    height: 95px;
+}
+
+.titleactualproyectcont{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.imageActualProyect{
+    width: 95px;
+    height: 95px;
+    border: 1px solid #222;
+    cursor: pointer;
+}
+
+.titleActualProyect{
+    font-size: 25px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.titleActualProyect:hover{
+    color: aquamarine;
+}
+
+
+.statuscont{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.statusleft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.statustitle{
+    margin-right: 10px;
+}
+
+.status{
+    margin-left: 10px;
+}
+
+.icon{
+    text-align: center;
+    padding: 0 5px;
+    width: 25px;
+    height: 25px;
+}
+
+.moreicons{
+    font-size: 25px;
+}
+
+.statusright {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.customTooltip {
+    position: absolute;
+    background-color: rgba(220, 220, 220, 0.8); 
+    color: #444;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    white-space: nowrap;
+    z-index: 10;
+    top: -35px; 
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+  
+
+.statusright:hover .customTooltip {
+    opacity: 1;
+}
+  
+@media (max-width: 600px){
+    .statustitle{
+        display: none;
+    }
+
+    .statusbar{
+        display: none;
+    }
+}

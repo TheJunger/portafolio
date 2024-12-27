@@ -1,0 +1,96 @@
+#CGLVI{
+  overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(DAY.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@font-face {
+  font-family: 'Minecraft';
+  src: url('./Minecraft.ttf');
+}
+
+.logo::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  filter: blur(10px);
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(34, 34, 34, 0.1);
+  box-shadow: 0 0 5px 2px rgba(34, 34, 34, 0.1);
+  position: relative;
+}
+
+.logo img{
+  max-width: 100vw;
+  max-height: 15vh;
+}
+
+.JustASeparator{
+  border: 0.2vh solid #222;
+}
+
+.navbar{
+  letter-spacing: 0.3vh;
+  font-family: 'Josefin Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-weight: bolder;
+  font-size: 3vh;
+  font-family: 'Minecraft', sans-serif;
+  font-size: 4vh;
+  color: #eee;
+  font-weight: bolder;
+}
+
+.inicio, .lore, .dropdown{
+  margin-top: 4vh;
+  display: flex;
+  width: 13vw;
+  height: 7vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 3.5vh;
+  background-image: url(barra-corta.png);
+  background-position: center;
+  background-size: cover;
+  transition: all 0.3s;
+
+}
+
+.navbar .inicio:hover, .navbar .lore:hover, .navbar .dropmenu:hover{
+  transform: scale(1.05);
+}
+
+.inicio p, .dropmenu p, .lore p{
+  padding: 0;
+  margin: 0;
+  user-select: none;
+}
+
+.server{
+  border-radius: 1vh 0 1vh 0;
+}
+
+.dinamicPage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  min-height: 73vh;
+}

@@ -1,0 +1,36 @@
+.separator{
+    margin-top: 25px;
+    background-color: rgba(24, 29, 87, 0.8);
+    padding: 1vh;
+    font-size: 20px;
+}
+
+.otherProyects{
+    background-color: rgba(44, 46, 61, 0.8);
+    padding: 1.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seemore{
+    margin-top: 25px;
+    background-color: rgba(24, 29, 87, 0.8);
+    padding: 10px 45px;
+    border-radius: 1vh;
+    transition: all 0.10s;
+    cursor: pointer;
+}
+
+
+.seemore:hover{
+    background-color: rgba(19, 22, 59, 0.8);
+    transform: scale(1.05);
+    user-select: none;
+}
+
+.vermasdl{
+    color: #fff;
+    text-decoration: none;
+}

@@ -1,0 +1,182 @@
+@font-face {
+  font-family: 'CGL-Letra';
+  src: url('./Recursos pagina CGLD7/PrStart.ttf') format('truetype');
+  /* Otras fuentes compatibles si deseas agregarlas */
+}
+
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  background-image: url('./Recursos pagina CGLD7/FONDOS/Fondo-sin-nombre.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logoCont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoPrincipal{
+  top: 10vh;
+  margin-right: 3.5vh;
+  position: absolute;
+  width: 65vw;
+}
+
+.mainContent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.startCont{
+  margin-top: 60vh;
+}
+
+.soundBtnCont{
+  top: 10px;
+  right: 10px;
+  position: absolute;
+}
+
+.soundBtn{
+  width: 10vh;
+}
+
+.iconsContainer {
+  display: flex;
+  margin-top: 40vh;
+}
+
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 3vh;
+  position: relative;
+}
+
+.flecha{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8vw;
+  top: -10vh;
+  right: 5.5vh;
+
+}
+
+.img{
+  width: 13vw;
+}
+
+.secondContainer{
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: rgb(34, 34, 34, 0.8);
+}
+
+.backgroundInfo{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  height: 90vh;
+  z-index: 5;
+}
+
+.infoContent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 10;
+  width: 65vw;
+  height: 61vh;
+  font-family: 'CGL-Letra';
+  font-size: 4vh;
+  margin-bottom: 5vh;
+  letter-spacing: 0.25vh;
+  color: #ccc;
+  text-shadow: 0 1vh 2vh #222, 1vh 0 2vh #222, 0 0 2vh #222;
+  overflow: hidden;
+
+}
+
+.InfoTitle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 6vh;
+  margin: 4vh 0;
+  width: 100%;
+  /*padding-bottom: 2vh;
+  border-bottom: 1vh solid black;*/
+}
+
+.infoText{
+  overflow: auto;
+  padding-right: 2vh;
+  border-radius: 5vh;
+  padding-bottom: 5vh;
+  padding-top: 5vh;
+}
+
+.infoText ul li{
+  font-size: 3vh;
+}
+
+.infoText .rules li{
+  margin-bottom: 3vh;
+}
+
+.closeButton{
+  z-index: 6;
+  position: absolute;
+  top: 9vh;
+  right: 20vh;
+  width: 5vw;
+  height: 10vh;
+}
+
+/* Estilo básico de la barra de desplazamiento en WebKit */
+::-webkit-scrollbar {
+  width: 0.8vw;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(34, 34, 34, 0.6);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px;
+}
+
+.link{
+  color: #ccc;
+  font-size: 5vh;
+}
+
+.ipCont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconIp{
+  margin-left: 2vh;
+}

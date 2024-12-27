@@ -1,0 +1,177 @@
+.apmaincontent{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    background-color: rgb(34, 34, 34, 0.8);
+    margin: 2vh 0;
+    padding: 2vh 1vw;
+}
+
+.nameimageap{
+    display: flex;
+    justify-content: center;
+}
+
+.imgcontap{
+    width: 80px;
+    height: 80px;
+}
+
+.titleproyectap{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 15px;
+}
+
+.titleap{
+    font-size: 23px;
+}
+
+.imgmp{
+    width: 80px;
+    height: 80px;
+    border-radius: 1vh;
+}
+
+.statusbarmp{
+    display: flex;
+}
+
+.techcontap{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.techmpicon{
+    width: 27px;
+    height: 27px;
+    margin: 0 3px;
+}
+
+.apdowncontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.status, .statustitle{
+    color: #fff;
+}
+
+.statusleft{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 300px;
+}
+
+.progressbar{
+    width: 50%;
+}
+
+.iconap{
+    width: 32px;
+    height: 32px;
+    margin: 0 3px;
+}
+
+.techcontap .customTooltip {
+    position: absolute;
+    background-color: rgba(24, 29, 87, 0.8);
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    white-space: nowrap;
+    z-index: 10;
+    top: -40px; 
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    width: 50px;
+    text-align: center;
+}
+
+.techcontap:hover .customTooltip {
+    opacity: 1;
+}
+
+@media (max-width: 750px){
+    .progressbar{
+        width: 90px;
+    }
+    .statusleft{
+        justify-content: flex-end;
+        width: 35vh;
+    }
+    .apdowncontent{
+        width: 35vh;
+    }
+    .techcontap{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:600px) {
+
+    .iconap{
+        width: 25px;
+        height: 25px;
+    }
+
+    .statusleft{
+        justify-content: flex-end;
+        width: 30vh;
+    }
+    .apdowncontent{
+        width: 30vh;
+    }
+    
+    .progressbar{
+        display: none;
+    }
+
+    .projectcontainersm{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 90vh;
+        background-color: rgb(51, 51, 51, 0.9);
+        box-shadow: 0 0 1vh 1vh rgba(34, 34, 34, 0.9);
+        padding: 0 1vw;
+        overflow-y: scroll;
+      }
+
+      .titleproyectap{
+        width: 20vh;
+      }
+
+      .titleap{
+        white-space: nowrap;
+        overflow-x: hidden;
+        text-overflow: ellipsis;
+      }
+}
+
+@media (max-width: 445px){
+    .imgcontap{
+        display: none;
+    }
+    .titleproyectap{
+        width: 20vh;
+      }
+    
+      .statusleft{
+        justify-content: flex-end;
+        width: 20vh;
+    }
+    .apdowncontent{
+        width: 20vh;
+    }
+}

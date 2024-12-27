@@ -1,0 +1,115 @@
+.loreContainer {
+    margin: 5vh;
+    display: flex;
+    padding: 1vh 2vh;
+    max-width: 41vw;
+    border-radius: 2vh;
+    position: relative;
+    background-color: rgba(34, 34, 34, 0.75);
+    box-shadow: 0 0 5px 2px rgba(34, 34, 34, 0.75);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .loreContainer::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    filter: blur(1vh);
+    opacity: 0.5;
+    z-index: -1;
+  }
+  
+.imgCont{
+    float: left;
+}
+
+.imgCont img{
+    float: left;
+    object-fit: cover;
+    width: 20vw;
+    height: 35vh;
+    border-radius: 2vh;
+    box-shadow: 0 0 3px 0.1vh #fff;
+    margin-right: 1.5vh;
+}
+
+.textContLore{
+    font-weight: 500;
+    margin-bottom: 1vh;
+    font-size: 2.5vh;
+}
+
+.titleContLore{
+    text-align: center;
+    font-size: 5vh;
+    margin-bottom: 3vh;
+    padding-bottom: 1vh;
+    border-bottom: #fff solid 0.5vh;
+}
+
+.chevronIcon{
+    margin: 3vh 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chevronIcon i{
+    margin: 0;
+    padding: 0;
+    font-size: 5vh;
+}
+
+.lores{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.warning{
+    font-size: 6vh;
+    font-family: 'Nunito-Black';
+    color: rgb(255, 28, 28);
+    -webkit-text-stroke: 0.1vh #222;
+    background-color: #fff;
+    padding: 0 3vh;
+    border-radius: 5vh;
+}
+
+.adv{
+    color: rgb(255, 83, 83);
+    text-shadow: 0px 0px 5px #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vh;
+}
+
+.next{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 3vh;
+}
+
+.caciqueColor{
+    color: rgb(35, 211, 35);
+}
+
+.good{
+    color: rgb(34, 255, 34);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0px 0px 5px #000;
+    text-align: center;
+    font-size: 4.5vh;
+}

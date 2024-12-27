@@ -1,0 +1,203 @@
+.downRightContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(34, 34, 34, 0.6);
+    padding: 2vh 3vh;
+}
+
+.drStatus{
+    font-size: 20px;
+    color: aquamarine;
+}
+
+.driconscont{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dricons{
+    width: 50px;
+    height: 50px;
+    transition: transform 0.2s;
+}
+
+.dricons:hover{
+    transform: scale(1.2);
+}
+
+.drfrontend, .drbackend , .drbd{
+    margin-top: 55px;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.driconscontFront{
+    position: relative;
+}
+
+.driconscontFront .customTooltip {
+    position: absolute;
+    background-color: rgba(24, 29, 87, 0.9);
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    white-space: nowrap;
+    z-index: 10;
+    top: -40px; 
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    text-align: center;
+}
+
+.driconscontFront:hover .customTooltip {
+    opacity: 1;
+}
+
+
+.driconscontBack{
+    position: relative;
+}
+
+.driconscontBack .customTooltip {
+    position: absolute;
+    background-color: rgba(24, 29, 87, 0.9);
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    white-space: nowrap;
+    z-index: 10;
+    top: -40px; 
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    text-align: center;
+}
+
+.driconscontBack:hover .customTooltip {
+    opacity: 1;
+}
+
+
+.driconcontDB{
+    position: relative;
+}
+
+.driconcontDB .customTooltip {
+    position: absolute;
+    background-color: rgba(24, 29, 87, 0.9);
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    white-space: nowrap;
+    z-index: 10;
+    top: -40px; 
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    text-align: center;
+}
+
+.driconcontDB:hover .customTooltip {
+    opacity: 1;
+}
+
+@media (max-width: 1100px){
+    .downRightContainer{
+        padding: 0;
+        margin: 0;
+        display: grid;
+        background-color: rgb(34, 34, 34, 0.6);
+        width: 100%;
+        grid-template-areas:
+        "topup topup topup"
+        "frontitle backtitle bdtitle"
+        "fronttech backtech bdtech";
+        text-align: center;
+        justify-items: center;
+    }
+
+    .drStatus{
+        grid-area: topup;
+        text-align: start;
+        justify-self: self-start;
+        padding: 2vh 3vh;
+        background-image: linear-gradient( to right, rgba(19, 22, 59, 1), rgba(0,0,0,0)
+        );
+        width: 75%;
+        ;
+    }
+
+    .drfrontend{
+        grid-area: frontitle;
+        margin-top: 25px;
+    }
+
+    .drbackend{
+        grid-area: backtitle;
+        margin-top: 25px;
+    }
+
+    .drbd{
+        grid-area: bdtitle;
+        margin-top: 25px;
+    }
+
+    .driconscontFront{
+        grid-area: fronttech;
+    }
+
+    .driconscont{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-bottom: 2vh;
+    }
+
+    .driconscont img, .driconscont div{
+        width: 55px;
+        height: 55px;
+        margin: 0.5vh 1.5vh;
+    }
+
+    .driiconscontBack{
+        grid-area: backtech;
+    }
+
+    .driconcontDB{
+        grid-area: bdtech;
+    }
+
+}
+
+@media (max-width: 400px){
+    .driconscont img, .driconscont div{
+        width: 45px;
+        height: 45px;
+        margin: 0.5vh 1.5vh;
+    }
+
+    .drtitles{
+        text-wrap: wrap;
+        text-overflow: ellipsis;
+        overflow-x: hidden;
+        width: 90px;
+    }
+}

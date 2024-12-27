@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../public/image/background1.jpg');
+  background-size: cover;
+}
+
+.maincontent{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: repeat(2, auto);
+  grid-gap: 5vh;
+  grid-template-areas:
+  "uleft uright"
+  "dleft dright";
+  background-color: rgb(51, 51, 51, 0.9);
+  box-shadow: 0 0 1vh 1vh rgba(34, 34, 34, 0.9);
+  width: 1050px;
+  color: #fff;
+  height: 100%;
+  padding: 5vh 1vw 10vh 1vw;
+}
+
+.upleftCont{
+  display: flex;
+  grid-area: uleft;
+}
+
+.upRight{
+  display: flex;
+  grid-area: uright;
+}
+
+.downleft{
+  grid-area: dleft;
+}
+
+.downRightContainer{
+  grid-area: dright;
+
+}
+
+@media (max-width: 1100px){
+  .maincontent{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 5vh;
+    justify-content: center;
+    align-items: center;
+    grid-template-areas:
+    "uleft uright"
+    "dright dright"
+    "dleft dleft";
+    background-color: rgb(51, 51, 51, 0.9);
+    box-shadow: 0 0 1vh 1vh rgba(34, 34, 34, 0.9);
+    width: 95%;
+    color: #fff;
+    padding: 5vh 1vw 10vh 1vw;
+  }
+}
+
+@media (max-width: 600px){
+  .maincontent{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 5vh;
+    justify-content: center;
+    align-items: center;
+    grid-template-areas:
+    "uleft uleft"
+    "uright uright"
+    "dright dright"
+    "dleft dleft";
+    background-color: rgb(51, 51, 51, 0.9);
+    box-shadow: 0 0 1vh 1vh rgba(34, 34, 34, 0.9);
+    width: 95%;
+    color: #fff;
+    padding: 5vh 1vw 10vh 1vw;
+  }
+}
+
+@media (max-width: 375px){
+  .maincontent{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 5vh;
+    justify-content: center;
+    align-items: center;
+    grid-template-areas:
+    "uleft uleft"
+    "uright uright"
+    "dright dright"
+    "dleft dleft";
+    background-color: rgb(51, 51, 51, 0.9);
+    box-shadow: 0 0 1vh 1vh rgba(34, 34, 34, 0.9);
+    width: 100%;
+    color: #fff;
+    padding: 3vh 1vw 10vh 1vw;
+  }
+}

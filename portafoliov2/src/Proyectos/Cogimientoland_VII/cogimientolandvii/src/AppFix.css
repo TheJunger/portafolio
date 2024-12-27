@@ -1,0 +1,178 @@
+@font-face {
+  font-family: 'CGL-Letra';
+  src: url('./Recursos pagina CGLD7/PrStart.ttf') format('truetype');
+}
+
+
+#CGLVII{
+  width: 100vw;
+  height: 100vh;
+  background-image: url('./Recursos pagina CGLD7/FONDOS/Fondo-sin-nombre.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#CGLVII .logoCont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#CGLVII .logoPrincipal{
+  top: 10vh;
+  margin-right: 3.5vh;
+  position: absolute;
+  width: 65vw;
+}
+
+#CGLVII .mainContent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#CGLVII .startCont{
+  margin-top: 60vh;
+}
+
+#CGLVII .soundBtnCont{
+  top: 10px;
+  right: 10px;
+  position: absolute;
+}
+
+#CGLVII .soundBtn{
+  width: 10vh;
+}
+
+#CGLVII .iconsContainer {
+  display: flex;
+  margin-top: 40vh;
+}
+
+#CGLVII .imageContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 3vh;
+  position: relative;
+}
+
+#CGLVII .flecha{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8vw;
+  top: -10vh;
+  right: 5.5vh;
+
+}
+
+#CGLVII .img{
+  width: 13vw;
+}
+
+#CGLVII .secondContainer{
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: rgb(34, 34, 34, 0.8);
+}
+
+#CGLVII .backgroundInfo{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  height: 90vh;
+  z-index: 5;
+}
+
+#CGLVII .infoContent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 10;
+  width: 65vw;
+  height: 61vh;
+  font-family: 'CGL-Letra';
+  font-size: 4vh;
+  margin-bottom: 5vh;
+  letter-spacing: 0.25vh;
+  color: #ccc;
+  text-shadow: 0 1vh 2vh #222, 1vh 0 2vh #222, 0 0 2vh #222;
+  overflow: hidden;
+
+}
+
+#CGLVII .InfoTitle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 6vh;
+  margin: 4vh 0;
+  width: 100%;
+}
+
+#CGLVII .infoText{
+  overflow: auto;
+  padding-right: 2vh;
+  border-radius: 5vh;
+  padding-bottom: 5vh;
+  padding-top: 5vh;
+}
+
+#CGLVII .infoText ul li{
+  font-size: 3vh;
+}
+
+#CGLVII .infoText .rules li{
+  margin-bottom: 3vh;
+}
+
+#CGLVII .closeButton{
+  z-index: 6;
+  position: absolute;
+  top: 9vh;
+  right: 20vh;
+  width: 5vw;
+  height: 10vh;
+}
+
+#CGLVII ::-webkit-scrollbar {
+  width: 0.8vw;
+}
+
+#CGLVII ::-webkit-scrollbar-track {
+  background-color: rgba(34, 34, 34, 0.6);
+}
+
+#CGLVII ::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px;
+}
+
+#CGLVII .link{
+  color: #ccc;
+  font-size: 5vh;
+}
+
+#CGLVII .ipCont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#CGLVII .iconIp{
+  margin-left: 2vh;
+}

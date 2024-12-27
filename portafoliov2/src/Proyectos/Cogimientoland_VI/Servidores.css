@@ -1,0 +1,78 @@
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    opacity: 0;
+    transform: translateY(-55vh);
+    transition: opacity 0.1s ease-out, transform 0.3s ease-out;
+    user-select: none;
+    margin-left: -8vh;
+  }
+
+  .dropdown:hover{
+    transform: scale(1.05);
+  }
+  
+  .dropdown-menu.open {
+    opacity: 1;
+    transform: translateY(0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .dropdown {
+    z-index: 10;
+    background-image: url(barra-corta.png);
+    background-position: center;
+    background-size: cover;
+    user-select: none;
+    transition: all 0.3s;
+    position: relative;
+    height: fit-content;
+  }
+
+  .dropdowntext{
+    width: 13vw;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1vh;
+    font-size: 3.5vh;
+    transition: background 0.3s;
+  }
+
+  #CGLVI ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    text-align: center;
+    border-radius: 0 1vh 0 1vh;
+    overflow: hidden;
+    padding: 0;
+}
+
+  #CGLVI li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 17vw;
+    height: 10vh;
+    transition: all 0.3s;
+    background-image: url(barra-corta.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  #CGLVI li:hover{
+    transform: scale(1.1);
+  }
+  

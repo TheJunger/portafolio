@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9abecdcc.css",
+    "main.js": "/static/js/main.4b78a398.js",
+    "static/js/453.d02f4216.chunk.js": "/static/js/453.d02f4216.chunk.js",
+    "static/media/BackSound.mp3": "/static/media/BackSound.61c18bb9ae6c4b8be846.mp3",
+    "static/media/Caja-Info (2).png": "/static/media/Caja-Info (2).0a20c58e033b44a92de8.png",
+    "static/media/Fondo-sin-nombre.jpg": "/static/media/Fondo-sin-nombre.e968864461e78cb28414.jpg",
+    "static/media/CGL3.png": "/static/media/CGL3.7ee22812033253a5b925.png",
+    "static/media/CGL5.png": "/static/media/CGL5.b5bc01e336c8e5d62e0b.png",
+    "static/media/DAY.png": "/static/media/DAY.21647d8b9ea372abfab9.png",
+    "static/media/background1.jpg": "/static/media/background1.db74d3026884aa475c5d.jpg",
+    "static/media/CGLD7-Titulo.png": "/static/media/CGLD7-Titulo.5df932d5375550f6f17d.png",
+    "static/media/Nunito-Black.ttf": "/static/media/Nunito-Black.969e95ce4a719e43f654.ttf",
+    "static/media/IP.png": "/static/media/IP.05914c7ef3ee780a60f7.png",
+    "static/media/CGL4.png": "/static/media/CGL4.eaa9f9f2032b3f6ceaa4.png",
+    "static/media/Cogimientoland-LOGO.png": "/static/media/Cogimientoland-LOGO.afcd3c625b95c1b18db2.png",
+    "static/media/Lore.png": "/static/media/Lore.709ec18b744dc42c5ee6.png",
+    "static/media/Reglas.png": "/static/media/Reglas.d0e505445a46e4a18e9b.png",
+    "static/media/Mods.png": "/static/media/Mods.09556145c374e9d4ef01.png",
+    "static/media/IP (2).png": "/static/media/IP (2).90481d7faa06165f0662.png",
+    "static/media/Lore (2).png": "/static/media/Lore (2).435e79b9a9d34e0b702a.png",
+    "static/media/Reglas (2).png": "/static/media/Reglas (2).c6ecb9b9dad690e9c690.png",
+    "static/media/Mods (2).png": "/static/media/Mods (2).3c616dc88a855f880493.png",
+    "static/media/CGL6.jpg": "/static/media/CGL6.76f8e968b75e22e2c6a5.jpg",
+    "static/media/PrStart.ttf": "/static/media/PrStart.1c7d967259a602307d6d.ttf",
+    "static/media/Minecraft.ttf": "/static/media/Minecraft.81f6c7f882fcc2dee106.ttf",
+    "static/media/Sonido_2.mp3": "/static/media/Sonido_2.e5b1b7bb7cef3530261c.mp3",
+    "static/media/Sonido_3.mp3": "/static/media/Sonido_3.acbb788f061f1646f1d2.mp3",
+    "static/media/Sonido_1.mp3": "/static/media/Sonido_1.7cc8f8f50fbe36c4c89e.mp3",
+    "static/media/ondas.svg": "/static/media/ondas.c0eeff8ed1d648d72028.svg",
+    "index.html": "/index.html",
+    "main.9abecdcc.css.map": "/static/css/main.9abecdcc.css.map",
+    "main.4b78a398.js.map": "/static/js/main.4b78a398.js.map",
+    "453.d02f4216.chunk.js.map": "/static/js/453.d02f4216.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9abecdcc.css",
+    "static/js/main.4b78a398.js"
+  ]
+}

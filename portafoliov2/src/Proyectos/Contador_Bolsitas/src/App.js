@@ -11,7 +11,7 @@ function Bolsones() {
   const [tipoBolsita, setTipoBolsita] = useState('ninguno');
   const [showContent, setShowContent] = useState(false);
   const [token, setToken] = useState(localStorage.getItem('token') || '');
-  const fetchPath = 'http://localhost:5050'
+  const fetchPath = 'https://thejunger.pythonanywhere.com/'
 
   const fetchData = async () => {
     try {

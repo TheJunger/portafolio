@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import "./OpenLabelBolsones.css"
-const fetchPath = 'http://localhost:5050'
+const fetchPath = 'https://thejunger.pythonanywhere.com/'
 
 const OpenLabelBolsones = ({setShowLabelBolsones, bolsonId, tipoCambio, fetchData, token, dueñoBolson}) =>{
 

@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import "./OpenLabelHarina.css";
-const fetchPath = 'http://localhost:5050'
+const fetchPath = 'https://thejunger.pythonanywhere.com/'
 
 const OpenLabelHarina = ({
   setShowLabelEditHarina,

@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import "./Navbar.css"
 import { useNavigate } from "react-router";
-const fetchPath = 'http://localhost:5050'
+const fetchPath = 'https://thejunger.pythonanywhere.com/'
 
 const Navbar = ({setShowBolsitas, setShowBolsones, setShowBolsonesHarina, setShowMain, setShowInventario, setShowHistorial, setShowProduccion}) =>{
 

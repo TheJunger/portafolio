@@ -4,7 +4,7 @@ import './Produccion.css'
 import { OpenLabelAddProduccion } from "./OpenLabelAddProduccion"
 import { OpenLabelEditProduccion } from "./OpenLabelEditProduccion"
 import { OpenLabelRemoveProduccion } from "./OpenLabelRemoveProduccion"
-const fetchPath = 'http://localhost:5050'
+const fetchPath = 'https://thejunger.pythonanywhere.com/'
 
 const Produccion = ({token})=>{
 

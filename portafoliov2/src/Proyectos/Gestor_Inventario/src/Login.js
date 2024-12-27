@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Login.css';
 import { useNavigate } from 'react-router';
 import { Register } from './Register';
-const fetchPath = 'http://localhost:5050'
+const fetchPath = 'https://thejunger.pythonanywhere.com/'
 
 const Login = ({ setToken }) => {
   const [username, setUsername] = useState('');

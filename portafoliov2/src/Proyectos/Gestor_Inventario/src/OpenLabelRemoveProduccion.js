@@ -7,7 +7,7 @@ const OpenLabelRemoveProduccion = ({setShowLabelDelete, fetchData, token, produc
     const [grosor, setGrosor] = useState(1)
     const [color, setColor] = useState('Amarillo')
     const [cantidad, setCantidad] = useState(7)
-    const fetchPath = 'http://localhost:5050'
+    const fetchPath = 'https://thejunger.pythonanywhere.com/'
 
 
     useEffect(()=>{

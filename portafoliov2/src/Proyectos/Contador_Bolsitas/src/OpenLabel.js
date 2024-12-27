@@ -4,7 +4,7 @@ const OpenLabel = ({ setShowLabelEdit, bolsitaid, tipoBolsita, fetchData, token 
   const [dataEditBolsitas, setDataEditBolsitas] = useState([]);
   const [selladas, setSelladas] = useState(0);
   const [sinSellar, setSinSellar] = useState(0);
-  const fetchPath = 'http://localhost:5050'
+  const fetchPath = 'https://thejunger.pythonanywhere.com/'
 
   useEffect(() => {
     fetch(`${fetchPath}/api/get-specific-data`, {

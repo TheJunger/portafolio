@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-const fetchPath = 'http://localhost:5050'
+const fetchPath = 'https://thejunger.pythonanywhere.com/'
 
 const OpenLabel = ({ setShowLabelEdit, bolsitaid, tipoBolsita, fetchData, token }) => {
   const [dataEditBolsitas, setDataEditBolsitas] = useState([]);

@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react"
-const fetchPath = 'http://localhost:5050'
+const fetchPath = 'https://thejunger.pythonanywhere.com/'
 
 const OpenLabelEditProduccion = ({setShowLabelEdit, fetchData, token, produccionID})=>{
 

@@ -2,7 +2,7 @@ import './Bolsitas.css';
 import { useEffect, useState } from 'react';
 import { OpenLabel } from './OpenLabel';
 import React from 'react';
-const fetchPath = 'http://localhost:5050'
+const fetchPath = 'https://thejunger.pythonanywhere.com/'
 
 function Bolsitas({token}) {
   const [dataBolsitas, setDataBolsitas] = useState([]);

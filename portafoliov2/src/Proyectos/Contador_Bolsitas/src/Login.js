@@ -5,7 +5,7 @@ const Login = ({ setShowContent, setToken }) => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [showRegister, setShowRegister] = useState(false);
-  const fetchPath = 'http://localhost:5050'
+  const fetchPath = 'https://thejunger.pythonanywhere.com/'
 
   const handleSubmit = async (e) => {
     e.preventDefault();

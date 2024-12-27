@@ -2,7 +2,7 @@ import React from "react";
 import "./BolsasHarina.css"
 import { useEffect, useState } from "react";
 import { OpenLabelHarina } from "./OpenLabelHarina";
-const fetchPath = 'http://localhost:5050'
+const fetchPath = 'https://thejunger.pythonanywhere.com/'
 
 const BolsasHarina = ({token}) =>{
 

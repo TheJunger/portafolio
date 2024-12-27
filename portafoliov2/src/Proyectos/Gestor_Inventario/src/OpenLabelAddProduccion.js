@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 import './OpenLabelAddProduccion.css'
-const fetchPath = 'http://localhost:5050'
+const fetchPath = 'https://thejunger.pythonanywhere.com/'
 
 const OpenLabelAddProduccion = ({setShowLabelCreate, fetchData, token}) =>{
 

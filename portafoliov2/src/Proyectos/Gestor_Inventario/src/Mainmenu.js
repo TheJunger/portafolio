@@ -7,7 +7,7 @@ import "./Mainmenu.css"
 import { BolsasHarina } from "./BolsasHarina";
 import { BolsonesDeposito } from "./BolsonesDeposito";
 import { Produccion } from "./Produccion";
-const fetchPath = 'http://localhost:5050'
+const fetchPath = 'https://thejunger.pythonanywhere.com/'
 
 const MainMenu = ({token}) =>{
 

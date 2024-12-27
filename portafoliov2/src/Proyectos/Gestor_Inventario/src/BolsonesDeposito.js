@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import "./BolsonesDeposito.css"
 import { OpenLabelBolsones } from "./OpenLabelBolsones";
-const fetchPath = 'http://localhost:5050'
+const fetchPath = 'https://thejunger.pythonanywhere.com/'
 
 const BolsonesDeposito = ({token})=>{
 

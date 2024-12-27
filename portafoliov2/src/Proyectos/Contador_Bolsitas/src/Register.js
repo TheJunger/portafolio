@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const Register = ({ setToken, setShowRegister }) => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
-    const fetchPath = 'http://localhost:5050'
+    const fetchPath = 'https://thejunger.pythonanywhere.com/'
 
     const handleSubmit = async (e) => {
         alert("No se aceptan mas registros de momento")

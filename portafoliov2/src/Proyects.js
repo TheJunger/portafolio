@@ -8,10 +8,10 @@ const Proyects = ({proyectdata})=>{
         <div className="ProyectsContent">
         <div className="mainContent">
           <div className="nameimage">
-            <a href={urlProyect} className="imgcontdownleftproyects">
+            <a href={urlProyect} className="imgcontdownleftproyects" target="_blank" rel="noreferrer">
             <img src={'./image/'+proyectdata.Url_Imagen} alt="" className="imageActualProyects" />
             </a>
-            <a href={urlProyect} className="titleactualproyectscont">
+            <a href={urlProyect} className="titleactualproyectscont" target="_blank" rel="noreferrer">
             <div className="titleActualProyects">{proyectdata.Nombre}</div>
             </a>
           </div>

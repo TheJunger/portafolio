@@ -8,7 +8,7 @@ const MasProyectos = ({ allProyectData }) => {
   return (
     <div className="apmaincontent">
       <div className="nameimageap">
-        <a href={urlProyect} className="imgcontap">
+        <a href={urlProyect} className="imgcontap" target="_blank" rel="noreferrer">
           <img
             src={"./image/" + allProyectData.Url_Imagen}
             alt=""
@@ -16,7 +16,7 @@ const MasProyectos = ({ allProyectData }) => {
             className="imgmp"
           />
         </a>
-        <a href={urlProyect} className="titleproyectap">
+        <a href={urlProyect} className="titleproyectap" target="_blank" rel="noreferrer">
           <div className="titleap">{allProyectData.Nombre} </div>
         </a>
       </div>

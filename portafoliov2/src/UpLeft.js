@@ -6,7 +6,7 @@ const UpLeft = () => {
       <img src='image/test.jpg' alt="" className="userImage"/>
       <div className="infouser">
         <div className="nameCont">
-          <div className="name">Lionel Perafan</div>
+          <div className="name">TheJunger</div>
           <div className="user">@TheJunger</div>
         </div>
         <div className="country">Buenos Aires, Argentina (UTC-3)</div>
